@@ -36,10 +36,10 @@
     <div class="login-box-body">
         <p class="login-box-msg">Вход</p>
 
-        <?php form_open(); ?>
+        <?php echo form_open('admin/login'); ?>
             <div class="form-group has-feedback">
-                <?php echo form_input($formEmail); ?>
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <?php echo form_input($formUsername); ?>
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
                  <?php echo form_input($formPassword); ?>  
@@ -55,11 +55,11 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">
-                    <button type="submit" class="btn btn-primary btn-block btn-flat">Вход</button>
+                    <?php echo form_button($formButton); ?>
                 </div>
                 <!-- /.col -->
             </div>
-        </form>
+        <?php form_close(); ?>
 
     </div>
     <!-- /.login-box-body -->
