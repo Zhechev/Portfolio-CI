@@ -18,8 +18,8 @@
 <!-- STYLES -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/plugins.css'); ?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>" />
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
 
@@ -876,10 +876,10 @@
 <!-- / WRAPPER ALL -->
 	
 <!-- SCRIPTS -->
-<script src="assets/js/jquery.js"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/init.js"></script>
+<script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+<script src="<?php echo base_url('assets/js/plugins.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/init.js'); ?>"></script>
 <!-- /SCRIPTS -->
 
 </body>
