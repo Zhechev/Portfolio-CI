@@ -37,7 +37,7 @@ class User extends MY_Controller {
             'class'=> 'btn btn-primary btn-block btn-flat'
         );
 
-        $this->load->view('admin/header', $data);
+        $this->load->view('admin/common/header', $data);
         $this->load->view('admin/login', $data);
     }
 

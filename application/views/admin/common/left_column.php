@@ -20,6 +20,11 @@
                         <i class="fa fa-newspaper-o"></i> <span>Блог</span>
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo site_url('admin/contact/edit'); ?>">
+                        <i class="fa fa-envelope-o"></i> <span>Контакти</span>
+                    </a>
+                </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-share"></i> <span>Multilevel</span>

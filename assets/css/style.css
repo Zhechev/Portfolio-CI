@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*
 /*	Copyright (c) 2018 Marketify
 /*	Author: Marketify
@@ -2420,7 +2420,7 @@ img.svg{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url(..//img/hero/2.jpg);
+	background-image: url(..//img/catalog/111.jpg);
 	position: relative;
 }
 .wesley_tm_hero_header_particle .overlay{

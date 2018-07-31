@@ -17,7 +17,6 @@ class Blog_Model extends CI_Model {
         );
 
         $this->db->insert('blog', $data);
-
     }
 
     public function getPost($id)
@@ -27,14 +26,14 @@ class Blog_Model extends CI_Model {
         return $query->row_array();
     }
 
-    public function editPost($inputData)
+    public function editPost($inputData, $id)
     {
         $data = array(
             'title' => $inputData['title'],
             'content' => $inputData['content']
         );
 
-        $this->db->where('id', $inputData['id']);
+        $this->db->where('id', $id);
         $this->db->update('blog', $data);
     }
 

@@ -27,13 +27,9 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body pad">
-                <?php echo form_open('admin/blog/edit'); ?>
+                <?php echo form_open($action); ?>
 
                 <div class="box-body">
-                <div class="form-group">
-                  <label for="content-title">Id:</label>
-                   <?php echo form_input($formId); ?>
-                </div>
                 <div class="form-group">
                   <label for="content-title">Заглавие:</label>
                    <?php echo form_input($formTitle); ?>

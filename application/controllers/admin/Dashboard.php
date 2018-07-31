@@ -10,11 +10,11 @@ class Dashboard extends MY_Controller {
             redirect(site_url('admin/user/login'));
         }
 
-        $data['head'] = $this->load->view('admin/head', NULL, TRUE);
-        $data['left_column'] = $this->load->view('admin/left_column', NULL, TRUE);
+        $data['head'] = $this->load->view('admin/common/head', NULL, TRUE);
+        $data['left_column'] = $this->load->view('admin/common/left_column', NULL, TRUE);
 
-        $this->load->view('admin/header', $data);
+        $this->load->view('admin/common/header', $data);
         $this->load->view('admin/dashboard', $data);
-        $this->load->view('admin/footer');
+        $this->load->view('admin/common/footer');
     }
 }
