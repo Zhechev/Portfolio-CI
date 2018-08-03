@@ -13,7 +13,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Митко Жечев</title>
+<title>Wesley HTML 5 Template</title>
 
 <!-- STYLES -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -51,17 +51,17 @@
             <div class="container">
                 <div class="navigation_inner">
                     <div class="logo">
-                        <a class="light_logo" href="index.html"><img src="assets/img/logo/logo.png" alt="" /></a>
+                        <a class="light_logo" href="index.html"><img src="" alt="" /></a>
                     </div>
                     <div class="nav_list_wrap">
                         <div class="menu">
                             <ul class="anchor_nav">
                                 <li><a href="#home">Начало</a></li>
                                 <li><a href="#about">За мен</a></li>
-                                <li><a href="#services">Услуги</a></li>
-                                <li><a href="#portfolio">Портфолио</a></li>
-                                <li><a href="#testimonials">Отзиви</a></li>
-                                <li><a href="#news">Блог</a></li>
+                                <li><a href="#services">Умения</a></li>
+                                <li><a href="#portfolio">Проекти</a></li>
+                                <li><a href="#testimonials">Цитати</a></li>
+                                <li><a href="#news">Новини</a></li>
                                 <li><a href="#contact">Контакти</a></li>
                             </ul>
                         </div>
@@ -81,10 +81,10 @@
                 <ul class="anchor_nav">
                     <li><a href="#home">Начало</a></li>
                     <li><a href="#about">За мен</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#portfolio">Портфолио</a></li>
-                    <li><a href="#testimonials">Отзиви</a></li>
-                    <li><a href="#news">Блог</a></li>
+                    <li><a href="#services">Умения</a></li>
+                    <li><a href="#portfolio">Проекти</a></li>
+                    <li><a href="#testimonials">Цитати</a></li>
+                    <li><a href="#news">Новини</a></li>
                     <li><a href="#contact">Контакти</a></li>
                 </ul>
             </div>
@@ -104,7 +104,7 @@
                     <div class="container hero">
                         <div class="wesley_tm_hero_title">
                             <h5>PHP Developer and Dreamer</h5>
-                            <p class="name">МИТКО<span>ЖЕЧЕВ</span></p>
+                            <p class="name">МИТКО <span>ЖЕЧЕВ</span></p>
                             <div class="wesley_tm_hero_share">
                                 <ul>
                                     <li><a href="#"><i class="xcon-facebook"></i></a></li>
@@ -131,14 +131,14 @@
                     <div class="author_wrap">
                         <div class="leftbox">
                             <div class="image_wrap">
-                                <img src="assets/img/about/22.png" alt="" />
+                                <img src="<?php echo base_url('assets/img/about/22.png'); ?>" alt="" />
                             </div>
                         </div>
                         <div class="rightbox">
                             <div class="wesley_tm_main_title_holder about">
-                                <h3>За мен</h3>
+                                <h3>About Me</h3>
                             </div>
-                            <div class="subtitle"></div>
+                            <div class="subtitle"><p>Graphic Designer &amp; Web Developer</p></div>
                             <div class="definition">
                                 <p>Hi! My name is <strong>Wesley Kennedy</strong>. I am a full scale graphic designer. An experienced visual artist, committed to pixel perfect results. I am an expert in full brand development and corporate visual identity; from your logo, through all of your printed materials, up to your full online presence. A web designer, following the latest trends in brand/user communication.</p>
                                 <p>I grew up in Speicher, Switzerland, influenced by renowned Swiss design and a lot of fresh mountain air. In 1999, after completing my design studies in Geneva and Munich, I crossed the Atlantic and began designing in New York. Since then, I have worked at several prominent NYC design firms, including Thinkmap, where I served as Design Director and helped design the award-winning Visual Thesaurus. I now run my own studio, swissmiss, with recent clients including the Museum of Modern Art and the Food Network. My aesthetics reveal my Swiss roots – I am a firm believer in white space and clean, elegant design.</p>
@@ -149,7 +149,7 @@
                                         <span><label>Телефон: </label><?php echo $contacts['phone']; ?></span>
                                     </li>
                                     <li>
-                                        <span><label>Mail: </label> <a href="index.html"><?php echo $contacts['email']; ?></a></span>
+                                        <span><label>E-mail: </label> <a href="index.html"><?php echo $contacts['email']; ?></a></span>
                                     </li>
                                 </ul>
                             </div>
@@ -170,46 +170,9 @@
         </div>
         <!-- /ABOUT -->
 
-        <!-- SKILLS -->
-        <div class="wesley_tm_section">
-            <div class="wesley_tm_skills_wrap">
-                <div class="container">
-                    <div class="inner_wrap">
-                        <div class="leftbox">
-                            <h3>We provide high quality and cost effective services.</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.</p>
-                        </div>
-                        <div class="rightbox">
-                            <div class="progress_bar_wrap_total">
-                                <div class="wesley_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
-                                    <div class="wesley_tm_progress" data-value="95" data-color="#000">
-                                        <span><span class="label">Wordpress - <span class="experience">5 years of experience</span></span><span class="number">95%</span></span>
-                                        <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap"><div class="wesley_tm_bar"></div></div></div>
-                                    </div>
-                                    <div class="wesley_tm_progress" data-value="85" data-color="#000">
-                                        <span><span class="label">Css - <span class="experience">3 years of experience</span></span><span class="number">85%</span></span>
-                                        <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap"><div class="wesley_tm_bar"></div></div></div>
-                                    </div>
-                                    <div class="wesley_tm_progress" data-value="75" data-color="#000">
-                                        <span><span class="label">HTML - <span class="experience">4 years of experience</span></span><span class="number">75%</span></span>
-                                        <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap"><div class="wesley_tm_bar"></div></div></div>
-                                    </div>
-                                    <div class="wesley_tm_progress" data-value="90" data-color="#000">
-                                        <span><span class="label">After Effect - <span class="experience">6 years of experience</span></span><span class="number">90%</span></span>
-                                        <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap"><div class="wesley_tm_bar"></div></div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /SKILLS -->
-
         <!-- SERVICES -->
         <div class="wesley_tm_section" id="services">
-            <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="right">
+            <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="second" data-animation="bottom">
                 <div class="wesley_tm_first_style">
                     <div class="wesley_tm_main_title_holder">
                         <h3>Amazing Services</h3>
@@ -222,7 +185,7 @@
                                     <div class="inner">
                                         <div class="detail_wrap">
                                             <div class="image">
-                                                <img class="svg" src="assets/img/svg/instagram.svg" alt="" >
+                                                <img class="svg" src="<?php echo base_url('assets/img/svg/instagram.svg'); ?>" alt="" >
                                             </div>
                                             <span>Photography</span>
                                             <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages</p>
@@ -234,7 +197,7 @@
                                     <div class="inner">
                                         <div class="detail_wrap">
                                             <div class="image">
-                                                <img class="svg" src="assets/img/svg/share.svg" alt="" >
+                                                <img class="svg" src="<?php echo base_url('assets/img/svg/share.svg'); ?>" alt="" >
                                             </div>
                                             <span>Social Media</span>
                                             <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages</p>
@@ -246,7 +209,7 @@
                                     <div class="inner">
                                         <div class="detail_wrap">
                                             <div class="image">
-                                                <img class="svg" src="assets/img/svg/new-tab.svg" alt="" >
+                                                <img class="svg" src="<?php echo base_url('assets/img/svg/new-tab.svg'); ?>" alt="" >
                                             </div>
                                             <span>Web Design</span>
                                             <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages</p>
@@ -258,7 +221,7 @@
                                     <div class="inner">
                                         <div class="detail_wrap">
                                             <div class="image">
-                                                <img class="svg" src="assets/img/svg/adobe-illustrator.svg" alt="" >
+                                                <img class="svg" src="<?php echo base_url('assets/img/svg/adobe-illustrator.svg'); ?>" alt="" >
                                             </div>
                                             <span>Adobe Illustrator</span>
                                             <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages</p>
@@ -283,7 +246,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/camera-diaphragm.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/camera-diaphragm.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Photography</h3>
@@ -298,7 +261,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/new-tab.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/new-tab.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Web Design</h3>
@@ -313,7 +276,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/layers.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/layers.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Branding</h3>
@@ -328,7 +291,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/share.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/share.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Social Media</h3>
@@ -343,7 +306,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/adobe-illustrator.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/adobe-illustrator.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Illustrator</h3>
@@ -358,7 +321,7 @@
                                 <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="1s">
                                     <div class="inner_list wesley_tm_minibox">
                                         <div class="service_icon">
-                                            <img class="svg" src="assets/img/svg/seo-performance-marketing-graphic.svg" alt="" />
+                                            <img class="svg" src="<?php echo base_url('assets/img/svg/seo-performance-marketing-graphic.svg'); ?>" alt="" />
                                         </div>
                                         <div class="service_title">
                                             <h3>Marketing</h3>
@@ -380,51 +343,6 @@
         </div>
         <!-- /SERVICES -->
 
-        <!-- COUNTER -->
-        <div class="wesley_tm_section">
-            <div class="wesley_tm_counter_wrap_all">
-                <div class="wesley_tm_universal_box_wrap">
-                    <div class="bg_wrap">
-                        <div class="overlay_image counter jarallax" data-speed="0"></div>
-                        <div class="overlay_color counter"></div>
-                    </div>
-                    <div class="content counter">
-                        <div class="container">
-                            <div class="wesley_tm_counter_wrap" data-col="4" data-delay="300">
-                                <ul class="wesley_tm_counter_list wesley_tm_miniboxes">
-                                    <li>
-                                        <div class="inner wesley_tm_minibox">
-                                            <h3><span><span class="wesley_tm_counter" data-from="0" data-to="2222" data-speed="3000">0</span></span></h3>
-                                            <span>Projects Completed</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="inner wesley_tm_minibox">
-                                            <h3><span><span class="wesley_tm_counter" data-from="0" data-to="333" data-speed="3000">0</span>K</span></h3>
-                                            <span>Lines of Code</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="inner wesley_tm_minibox">
-                                            <h3><span><span class="wesley_tm_counter" data-from="0" data-to="8888" data-speed="3000">0</span></span></h3>
-                                            <span>Happy Clients</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="inner wesley_tm_minibox">
-                                            <h3><span><span class="wesley_tm_counter" data-from="0" data-to="100" data-speed="3000">0</span>%</span></h3>
-                                            <span>Satisfaction Guarantee</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /COUNTER -->
-
         <!-- PORTFOLIO -->
         <div class="wesley_tm_section" id="portfolio">
             <div class="wesley_tm_portfolio_wrapper_all" data-portfolio-style="filterable">
@@ -444,7 +362,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/1.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/1.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +376,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/2.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/2.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -472,7 +390,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/3.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/3.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -486,7 +404,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/4.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/4.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +418,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/5.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/5.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +432,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/6.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/6.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -528,7 +446,7 @@
                                     </div>
                                 </div>
                                 <div class="link">
-                                    <a class="zoom" href="assets/img/portfolio/7.jpg"></a>
+                                    <a class="zoom" href="img/portfolio/7.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -556,48 +474,48 @@
                         <ul class="wesley_tm_portfolio_list gallery_zoom">
                             <li class="design">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Aoc Productions" data-category="Design">
-                                    <a class="zoom" href="assets/img/portfolio/1.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/1.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
                             </li>
                             <li class="photography">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Ind Hed" data-category="Photography">
-                                    <a class="zoom" href="assets/img/portfolio/2.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/2.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
                             </li>
                             <li class="development">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Paper Mockup" data-category="Development">
-                                    <a class="zoom" href="assets/img/portfolio/3.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/3.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
                             </li>
                             <li class="photography">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">
-                                    <a class="zoom" href="assets/img/portfolio/4.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/4.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
                             </li>
                             <li class="design">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">
-                                    <a class="zoom" href="assets/img/portfolio/5.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/5.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
                             </li>
                             <li class="photography">
                                 <div class="entry wesley_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">
-                                    <a class="zoom" href="assets/img/portfolio/6.jpg#">
-                                        <img src="assets/img/portfolio/600x600.jpg" alt="" />
+                                    <a class="zoom" href="img/portfolio/6.jpg#">
+                                        <img src="<?php echo base_url('assets/img/portfolio/600x600.jpg'); ?>" alt="" />
                                         <div class="wesley_tm_portfolio_image_main"></div>
                                     </a>
                                 </div>
@@ -679,16 +597,18 @@
             <div class="wesley_tm_news_wrap">
                 <div class="container">
                     <div class="wesley_tm_main_title_holder news">
-                        <h3>Последни постове:</h3>
+                        <h3>Latest News</h3>
+                        <span>Check out our latest news</span>
                     </div>
                     <div class="wesley_tm_list_wrap blog_list" data-column="3" data-space="30">
                         <ul class="total">
+                            <?php foreach ($posts as $post) { ?>
                             <li class="wow fadeInUp" data-wow-duration="1.2s">
                                 <div class="inner_list">
                                     <div class="image_wrap">
-                                        <img class="small" src="assets/img/blog/500x350.jpg" alt="" />
-                                        <img class="big" src="assets/img/blog/1170x450.jpg" alt="" />
-                                        <div class="news_image" data-url="assets/img/blog/1.jpg"></div>
+                                        <img class="small" src="<?php echo $post['image'] ?>" alt=""/>
+                                        <img class="big" src="<?php echo $post['image'] ?>" alt="" />
+                                        <div class="news_image" data-url="img/blog/1.jpg"></div>
                                         <a class="link_news" href="index.html"></a>
                                     </div>
                                     <div class="definitions_wrap">
@@ -696,7 +616,7 @@
                                             <p>January 22, 2018 <a href="index.html">Logos</a></p>
                                         </div>
                                         <div class="title_holder">
-                                            <h3><a href="index.html">How to Create Great Logo for Your Business</a></h3>
+                                            <h3><a href="index.html"><?php echo $post['title']; ?></a></h3>
                                         </div>
                                         <div class="definition">
                                             <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have a couple ...</p>
@@ -718,76 +638,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                <div class="inner_list">
-                                    <div class="image_wrap">
-                                        <img class="small" src="assets/img/blog/500x350.jpg" alt="" />
-                                        <img class="big" src="assets/img/blog/1170x450.jpg" alt="" />
-                                        <div class="news_image" data-url="assets/img/blog/2.jpg"></div>
-                                        <a class="link_news" href="index.html"></a>
-                                    </div>
-                                    <div class="definitions_wrap">
-                                        <div class="date_wrap">
-                                            <p>February 07, 2018 <a href="index.html">Illustrator</a></p>
-                                        </div>
-                                        <div class="title_holder">
-                                            <h3><a href="index.html">How to Autumn Clean Your Design Career?</a></h3>
-                                        </div>
-                                        <div class="definition">
-                                            <p>Spring cleaning is not just about washing windows and clearing away cobwebs. Your design career also needs a thorough ...</p>
-                                        </div>
-                                        <div class="full_def">
-                                            <p>Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether yo are a freelancer or an in-house designer, or at a studio or agency, you'll probably have to rebrand at the andWhether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the andWhether yo are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and.Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the andWhether youa are a freelancer or an in-house designer, or at a studio or agency.</p>
-                                        </div>
-                                        <div class="wesley_tm_popup_share_wrap">
-                                            <ul>
-                                                <li><a href="#">Facebook</a></li>
-                                                <li><a href="#">Twitter</a></li>
-                                                <li><a href="#">Linkedin</a></li>
-                                                <li><a href="#">Behance</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="read_more">
-                                            <a href="#"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
-                                <div class="inner_list">
-                                    <div class="image_wrap">
-                                        <img class="small" src="assets/img/blog/500x350.jpg" alt="" />
-                                        <img class="big" src="assets/img/blog/1170x450.jpg" alt="" />
-                                        <div class="news_image" data-url="assets/img/blog/3.jpg"></div>
-                                        <a class="link_news" href="index.html"></a>
-                                    </div>
-                                    <div class="definitions_wrap">
-                                        <div class="date_wrap">
-                                            <p>April 12, 2018 <a href="index.html">Branding</a></p>
-                                        </div>
-                                        <div class="title_holder">
-                                            <h3><a href="index.html">Innovative Ways to Increase Brand</a></h3>
-                                        </div>
-                                        <div class="definition">
-                                            <p>Having a solid, trusted brand is important for your company to thrive. If your target audience does not know or trust ...</p>
-                                        </div>
-                                        <div class="full_def">
-                                            <p>Having a solid, trusted brand is important for your company to thrive. If your target audience does not know or trust your brand, how will you ever increase your customer base and sales? Here are six innovative strategies you can use to increase brand awareness and help your business thrive. Inviting influencers into your niche is a great way to increase brand awareness and hopefully drive sales. When influencers have an established audience that knows and trusts them, once they mention your product(s) and discuss your brand in their content, those mentions will expand your reach and increase peoples awareness of your product. Ikonick is a perfect example of a company that works directly with influencers: It sells canvas art for your home and office. The way Ikonick uses influencers involves providing them with art and having those influencers pose with the art, then share the photos on social media. "Our relationships are an important part of our business,"  co-founder Mark Mastrandrea told me. "Our relationships make up our community, and the community is how our brand grows." Ikonick uses all types of influencers, from Instagram photographers to celebrities. The companys social strategy has enabled it to scale and grow exponentially because its influencers become part of its sales team -- even ambassadors. The relationship is mutually rewarding, Mastrandrea said. Companies can also offer to sponsor influencers at an event (if they do that sort of thing) and even use them as spokespersons for their brand and product(s). A lot of CrossFit-related companies do this, including Rogue Fitness, which sponsors certain athletes with clothing. The athlete then becomes a walking billboard for the company. Have you ever received an order that came in branded packaging? Rather than see it as just another shipment, perhaps you felt that that that special branding made the package seem like a gift. The team knows that the product experience doesn't commence at first use, but rather at the unboxing stage. How companies present their brand, and the story they tell through their design and graphics, can create an emotional connection with the customer that may last even longer than the product itself.</p>
-                                        </div>
-                                        <div class="wesley_tm_popup_share_wrap">
-                                            <ul>
-                                                <li><a href="#">Facebook</a></li>
-                                                <li><a href="#">Twitter</a></li>
-                                                <li><a href="#">Linkedin</a></li>
-                                                <li><a href="#">Behance</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="read_more">
-                                            <a href="#"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+                            <?php } ?>
                         </ul>
                     </div>
                 </div>
@@ -799,8 +650,8 @@
         <div class="wesley_tm_section" id="contact">
             <div class="wesley_tm_contact_wrap_all">
                 <div class="wesley_tm_main_title_holder contact">
-                    <h3>Контакти</h3>
-                    <span>Изпратете ми съобщение и аз ще се свържа с вас възможно най-скоро!</span>
+                    <h3>Свържете се с мен</h3>
+                    <span>Изпратете съобщение и аз ще се свържа с вас възможно най-скоро!</span>
                 </div>
                 <div class="wesley_tm_contact_wrap">
                     <div class="main_input_wrap">
@@ -834,25 +685,25 @@
                         <ul>
                             <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
                                 <div class="image_holder logo">
-                                    <img src="assets/img/logo/logo.png" alt="" />
+                                    <img src="<?php echo base_url('assets/img/logo/logo.png'); ?>" alt="" />
                                 </div>
                                 <p>Creative portfolio studio</p>
                             </li>
                             <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
                                 <div class="image_holder">
-                                    <img class="svg" src="assets/img/svg/telephone.svg" alt="" />
+                                    <img class="svg" src="<?php echo base_url('assets/img/svg/telephone.svg'); ?>" alt="" />
                                 </div>
                                 <p><?php echo $contacts['phone']; ?></p>
                             </li>
                             <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s">
                                 <div class="image_holder">
-                                    <img class="svg" src="assets/img/svg/envelope.svg" alt="" />
+                                    <img class="svg" src="<?php echo base_url('assets/img/svg/envelope.svg'); ?>" alt="" />
                                 </div>
                                 <p><a href="#"><?php echo $contacts['email']; ?></a></p>
                             </li>
                             <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s">
                                 <div class="image_holder">
-                                    <img class="svg" src="assets/img/svg/location2.svg" alt="" />
+                                    <img class="svg" src="<?php echo base_url('assets/img/svg/location2.svg'); ?>" alt="" />
                                 </div>
                                 <p><?php echo $contacts['address']; ?></p>
                             </li>

@@ -37,7 +37,20 @@ class Blog extends MY_Controller {
         $this->load->model('admin/Blog_Model');
 
         if (!empty($this->input->post())) {
-            $user = $this->Blog_Model->editPost($this->input->post(), $id);
+
+            $config['upload_path'] = './assets/img/blog/'; //Use relative or absolute path
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = '100';
+            $config['max_width'] = '5000';
+            $config['max_height'] = '5000';
+            $config['overwrite'] = FALSE;
+            $this->upload->initialize($config);
+
+            $this->upload->do_upload('image');
+            $uploadData = $this->upload->data();
+            $image = $uploadData['file_name'];
+
+            $user = $this->Blog_Model->editPost($this->input->post(), $image, $id);
             redirect(site_url('admin/blog/showAll'));
         }
 

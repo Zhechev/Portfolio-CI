@@ -26,11 +26,12 @@ class Blog_Model extends CI_Model {
         return $query->row_array();
     }
 
-    public function editPost($inputData, $id)
+    public function editPost($inputData, $image, $id)
     {
         $data = array(
             'title' => $inputData['title'],
-            'content' => $inputData['content']
+            'content' => $inputData['content'],
+            'image' => $image
         );
 
         $this->db->where('id', $id);
@@ -41,5 +42,13 @@ class Blog_Model extends CI_Model {
     {
         $this->db->where('id', $id);
         $this->db->delete('blog');
+    }
+
+    public function getLastPosts()
+    {
+        $this->db->select()->from('blog');
+        $this->db->limit('3');
+        $query = $this->db->get();
+        return $query->result_array();
     }
 }

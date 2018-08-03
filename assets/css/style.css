@@ -1182,6 +1182,7 @@ img.svg{
 	clear: both;
 	float: left;
 	text-align: center;
+    background-color: #F7F7F7;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -1473,7 +1474,7 @@ img.svg{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;

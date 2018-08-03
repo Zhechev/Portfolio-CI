@@ -27,7 +27,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body pad">
-                <?php echo form_open($action); ?>
+                <?php echo form_open_multipart($action); ?>
 
                 <div class="box-body">
                 <div class="form-group">
@@ -40,6 +40,10 @@
                 </div>
                 <div class="col-xs-12 col-md-3 pull-right">
                     <?php echo form_button($formButton); ?>
+                </div>
+                <div>
+                <label for="image">Profile picture:</label>
+                <input type="file" id="image" name="image" />
                 </div>
               </div>
               <?php echo form_close(); ?>
